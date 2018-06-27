@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="./Assets/css/style.css" />
+    <link rel="javascript" type="text/javascript" src="./Assets/javascript/game.js">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header class="bg-info text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 border-bottom border-white">
+                    <h1 class="text-center font-weight-bold">
+                        Crystal Collector
+                    </h1>
+                </div>
+                <div class="col-lg-2">
+                    <button type="button" class="btn btn-dark mt-2">Back</button>
+                </div>
+            </div>
+    </header>
+    <div class="container border border-info rounded border-weight mt-2">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="border-bottom border-dark" id="rules">
+                    <h2 class="text-center border-bottom border-info">
+                        Rules
+                    </h2>
+                    <h3 class="text-center">
+                        A random number would be generated
+                    </h3>
+                    <h3 class="text-center">
+                        Each Crystal represent a random number
+                    </h3>
+                    <h3 class="text-center">
+                        Match Number using Crystal
+                    </h3>
+                    <h3 class="text-center">
+                        If over you lose,if matched you win
+                    </h3>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-1 ml-1">
+            <div class="col-lg-3">
+                <div id="first_container">
+                    <img class="choose_images" id="first" src="./assets/Images/Blue_Crystal.jpg" alt="blue">
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="row font-weight-bold" id="second_container">
+                    <img class="choose_images" id="second" src="./assets/Images/Green_Crystal.jpg" alt="green">
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div id="third_container">
+                    <img class="choose_images" id="third" src="./Assets/Images/Purple_Crystal.jpg" alt="Purple">
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="forth_container">
+                    <img class="choose_images" id="forth" src="./assets/Images/Red_Crystal.jpg" alt="red">
+                </div>
+            </div>
+        </div>
+        <div class="row border-top border-dark mt-1 mr-1 ml-1">
+            <div class="col-lg-3">
+                <h3 class="text-center text-black">
+                    Random Number
+                </h3>
+            </div>
+            <div class="col-lg-3">
+                <h3 class="text-center text-black">
+                    Current Number
+                </h3>
+            </div>
+            <div class="col-lg-3">
+                <h3 class="text-center text-black">
+                    Win
+                </h3>
+            </div>
+            <div class="col-lg-3">
+                <h3 class="text-center text-black">
+                    Lose
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <h3 class="text-center text-black" id="Random_Number">
+                    1
+                </h3>
+            </div>
+            <div class="col-lg-3">
+                <h3 class="text-center text-black" id="Current_Number">
+                    2
+                </h3>
+            </div>
+            <div class="col-lg-3">
+                <h3 class="text-center text-black" id="Win">
+                    3
+                </h3>
+            </div>
+            <div class="col-lg-3">
+                <h3 class="text-center text-black" id="Lose">
+                    4
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 mb-1 border-top border-dark">
+                <h3 class="text-center text-black mt-1" id="text_win_lose">
+                    4
+                </h3>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
